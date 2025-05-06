@@ -1,3 +1,4 @@
+"use-strict"
 const num1 = 1
 const str1 = "hello"
 const bool1 = true
