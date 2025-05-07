@@ -1,4 +1,6 @@
-"use-strict"
+'use strict'
+
+// 2 пункт
 const num1 = 1
 const str1 = "hello"
 const bool1 = true
@@ -99,3 +101,57 @@ const big10 = 19n
 const obj10 = { j: 10 }
 const arr10 = [28, 29, 30]
 const func10 = function() { return 10 }
+
+// 3 пункт
+const age = 25
+const userName = "Vladislav"
+const isStudent = true
+const muSymbol = Symbol("mu")
+const bigNumber = 1000000n
+const person = { name, age }
+const colors = ["red", "green", "blue"]
+const greet = function() { return "hello" }
+const undefinedVar = undefined
+const emptyValue = null
+const PI = 3.1415
+var oldSchool = "JS" 
+//(РАЗНАЯ ОБЛАСТЬ ВИДИМОСТИ) отличается от let тем, что var можно вызвать до её обЪявления получим (undefined), а let выдаст ошибку чётко указам что такая переменная не объявлена
+// console.log(testColl)
+// var testColl = "Переменная вызванная до её объявления (undefined)"
+const hasAccess = false
+const numbers = [1, 2, 3, 4, 5]
+const car = { 
+  brand: "BMW",
+  modal: "M3 E46",
+  year: 2002,
+}
+const country = "Moldova"
+function sayHi() {
+  console.log("проверка вызова функции")
+}
+sayHi()
+const taskCount = 30
+const MAX_USER = 100
+const fruits = [
+  function() {},
+  function() {},
+  function() {},
+]
+const temperature = 22.5
+const isOnline = true
+const settings = {}
+const messages = []
+const sumFunc = function() {
+  console.log(9+37)
+}
+sumFunc()
+const lastLogin = null
+const userRole = "admin"
+const height = 700
+const languages = ["JS", "GO", "1C",]
+const book = {
+  title: "JavaScript. Полное руководство. 7-е издание.",
+  author: "Флэнаган Дэвид",
+  year: 2021,
+}
+console.log(book)
