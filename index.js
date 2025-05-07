@@ -155,3 +155,166 @@ const book = {
   year: 2021,
 }
 console.log(book)
+
+// 5 пункт день 2
+const num11 = 11
+const str11 = "Car"
+const bool11 = true
+const null11 = null
+const undef11 = undefined
+const sym11 = Symbol("k")
+const big11 = 20n
+const obj11 = { k: 11 }
+const arr11 = [31, 32, 33,]
+const func11 = function() { return 11 }
+
+const num12 = 12
+const str12 = "motorcycle"
+const bool12 = false
+const null12 = null
+const undef12 = undefined
+const sym12 = Symbol("l")
+const big12 = 21n
+const obj12 = { l: 12 }
+const arr12 = [34, 35, 36,]
+const func12 = function() { return 12 }
+
+const num13 = 13
+const str13 = "good"
+const bool13 = true
+const null13 = null
+const undef13 = undefined
+const sym13 = Symbol("m")
+const big13 = 22n
+const obg13 = { m: 13 }
+const arr13 = [37, 38, 39,]
+const func13 = function() { return 13 }
+
+const num14 = 14
+const str14 = "top"
+const bool14 = false
+const null14 = null
+const undef14 = undefined
+const sym14 = Symbol("n")
+const big14 = 23n
+const obj14 = { n: 14 }
+const arr14 = [40, 41, 42,]
+const func14 = function() { return 14}
+
+const num15 = 15
+const str15 = "type"
+const bool15 = true
+const null15 = null
+const undef15 = undefined
+const sym15 = Symbol("o")
+const big15 = 24n
+const obj15 = { o: 15 }
+const arr15 = [43, 44, 45,]
+const func15 = function() { return 15 }
+
+const num16 = 16
+const str16 = "right"
+const bool16 = false
+const null16 = null
+const undef16 = undefined
+const sym16 = Symbol("p")
+const big16 = 25n
+const obj16 = { p: 16 }
+const arr16 = [46, 47, 48,]
+const func16 = function() { return 16 }
+
+const num17 = 17
+const str17 = "left"
+const bool17 = true
+const null17 = null
+const undef17 = undefined
+const sym17 = Symbol("q")
+const big17 = 26n
+const obj17 = { q: 17 }
+const arr17 = [49, 50, 51,]
+const func17 = function() { return 17 }
+
+const num18 = 18
+const str18 = "like"
+const bool18 = false
+const null18 = null
+const undef18 = undefined
+const sym18 = Symbol("r")
+const big18 = 27n
+const obj18 = { r: 18 }
+const arr18 = [52, 53, 54,]
+const func18 = function() { return 18 }
+
+const num19 = 19
+const srt19 = "string"
+const bool19 = true
+const null19 = null
+const undef19 = undefined
+const sym19 = Symbol("s")
+const big19 = 28n
+const obj19 = { s: 19 }
+const arr19 = [55, 56, 57,]
+const func19 = function() { return 19 }
+
+const num20 = 20
+const srt20 = "ring"
+const bool20 = false
+const null20 = null
+const undef20 = undefined
+const sym20 = Symbol("t")
+const big20 = 29n
+const obj20 = { t: 20 }
+const arr20 = [58, 59, 60,]
+const func20 = function() { return 20 }
+
+const age2 = 23
+const userName2 = "Viktor"
+const isStudent2 = false
+const muSymbol2 = Symbol("fack")
+const bigNumber2 = 99999n
+const person2 = { 
+  surname: "Vlasov", 
+  date: "07.03.2020",
+}
+const colors2 = ["yellow", "lightblue", "orange",]
+const greet2 = function() { return "bye"}
+const undefinedVar2 = undefined
+const emptyValue2 = null
+const PI2 = 3.1415
+var oldSchool = "GO"
+const hasAccess2 = true
+const numbers2 = [6, 7, 8, 9, 10]
+const car2 = {
+  brand: "Mercedes-benz",
+  model: "CLS 6.3AMG",
+  year: 2015,
+}
+const country2 = "Brasil"
+function sayHi2() {
+  console.log("func")
+}
+sayHi2()
+const taskCount2 = 34
+const MAX_USER2 = 101
+const fruits2 = [
+  function() {},
+  function() {},
+  function() {},
+]
+const temperature2 = 19.6
+const isOnline2 = false
+const settings2 = {}
+const messages2 = []
+const sumFunc2 = function(a, b) {
+  console.log(a + b)
+}
+sumFunc2(2, 3)
+const lastLogin2 = null
+const userRole2 = "user"
+const height2 = 320
+const languages2 = ["C#", "C++", "Pyhton"]
+const book2 = {
+  title: "Дресс-коды. 700 лет модной истории в деталях.",
+  author: "Томпсон Ф. Р.",
+  year:  2025,
+}
