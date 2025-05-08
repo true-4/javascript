@@ -103,12 +103,12 @@ const arr10 = [28, 29, 30]
 const func10 = function() { return 10 }
 
 // 3 пункт
-const age = 25
+const age1 = 25
 const userName = "Vladislav"
 const isStudent = true
 const muSymbol = Symbol("mu")
 const bigNumber = 1000000n
-const person = { name, age }
+const person = { name: "Alexsa", age: 23, }
 const colors = ["red", "green", "blue"]
 const greet = function() { return "hello" }
 const undefinedVar = undefined
@@ -464,3 +464,246 @@ const book3 = {
   author: "Вадим Зеланд",
   year: 2024,
 }
+
+// 6 пункт
+const a = 10
+const b = 3
+console.log(a + b)
+console.log(a - b)
+console.log(a * b)
+console.log(a / b)
+console.log(a % b)
+const c = 4
+const d = 6
+console.log(c + d)
+console.log(c - d)
+console.log(c * d)
+console.log(c / d)
+console.log(c % d)
+const e = 8
+const f = 2
+console.log(e + f)
+console.log(e - f)
+console.log(e * f)
+console.log(e / f)
+console.log(e % f)
+const g = 12
+const h = 45
+console.log(g + h)
+console.log(g - h)
+console.log(g * f)
+console.log(g / f)
+console.log(g % f)
+const j = 98
+const k = 5
+console.log(j + k)
+console.log(j - k)
+console.log(j * k)
+console.log(j / k)
+console.log(j % k)
+const l = 111
+const m = 6
+console.log(l + m)
+console.log(l - m)
+console.log(l * m)
+console.log(l / m)
+console.log(l % m)
+
+const name = "Alice"
+const age = 25
+console.log("Меня зовут " + name + ", мне " + age + " лет")
+console.log(`Меня зовут ${name}, мне ${age} лет`)
+const name4 = "Ignat"
+const age4 = 50
+console.log("Меня зовут " + name4 + ", мне " + age4 + " лет")
+console.log(`Меня зовут ${name4}, мне ${age4} лет`)
+const name5 = "Valera"
+const age5 = 32
+console.log("Меня зовут " + name5 + ", мне " + age5 + " года")
+console.log(`Меня зовут ${name5}, мне ${age5} года`)
+const name6 = "Olga"
+const age6 = 27
+console.log("Меня зовут " + name6 + ", мне " + age6 + "лет")
+console.log(`Меня зовут ${name6}, мне ${age6} лет`)
+const name7 = "Inna"
+const age7 = 38
+console.log("Меня зовут " + name7 + ", мне " + age7 + " лет")
+console.log(`Меня зовут ${name7}, мне ${age7} лет`)
+const name8 = "Lilo"
+const age8 = 16
+console.log("Меня зовут " + name8 + ", мне " + age8 + " лет")
+console.log(`Меня зовут ${name8}, мне ${age8} лет`)
+
+const strNumber = "100"
+const transformationNum = Number(strNumber)
+const transformationPar = parseInt(strNumber)
+const transformationPlus = +strNumber
+console.log(transformationNum, transformationPar, transformationPlus)
+const strNumber1 = "50"
+const transformationNum1 = Number(strNumber1)
+const transformationPar1 = parseInt(strNumber1)
+const transformationPlus1 = +strNumber1
+console.log(transformationNum1, transformationPar1, transformationPlus1)
+const strNumber2 = "200"
+const transformationNum2 = Number(strNumber2)
+const transformationPar2 = parseInt(strNumber2)
+const transformationPlus2 = +strNumber2
+console.log(transformationNum2, transformationPar2, transformationPlus2)
+const strNumber3 = 0
+const transformationNum3 = Number(strNumber3)
+const transformationPar3 = parseInt(strNumber3)
+const transformationPlus3 = +strNumber3
+console.log(transformationNum3, transformationPar3, transformationPlus3)
+const strNumber4 = "-30"
+const transformationNum4 = Number(strNumber4)
+const transformationPar4 = parseInt(strNumber4)
+const transformationPlus4 = +strNumber4
+console.log(transformationNum4, transformationPar4, transformationPlus4)
+const strNumber5 = "3.14"
+const transformationNum5 = Number(strNumber5)
+const transformationPar5 = parseInt(strNumber5)
+const transformationPlus5 = +strNumber5
+console.log(transformationNum5, transformationPar5, transformationPlus5)
+
+console.log("5" * 2)//строка ("5") преобразуется в число так как js видит математический оператор (*) и пытается превести операнды к однову типу в даном примере к числу
+console.log("10" / "2")
+console.log("7" - 3)
+console.log(4 + "5")//в данном случе (+) производит конкатинацию приводя щперанды к сроке
+console.log(22 + "5")
+console.log("7" * 13)
+console.log(11 / "2")
+console.log("18" - "4")
+console.log(15 * "3")
+console.log(81 / "9")
+console.log(111 - "111")
+console.log(5 + 5)// в этом случае конкатиначия буде производиться с двумя операндами типа Number
+
+console.log(Boolean(0))//false
+console.log(Boolean(1))//true
+console.log(Boolean(""))//false
+console.log(Boolean("hello"))//true
+console.log(Boolean(null))//false
+console.log(Boolean(undefined))//false
+
+console.log(Boolean(-1))
+console.log(Boolean(100000000000000000000))
+console.log(Boolean(strNumber))
+console.log(Boolean(NaN))
+console.log(Boolean(name))
+console.log(Boolean(a + b))
+
+console.log(Boolean("1" / 6))
+console.log(Boolean(`Что это ${transformationNum}`))
+console.log(Boolean(true))
+console.log(Boolean(false))
+console.log(Boolean(!true))
+console.log(Boolean(!false))
+
+console.log(Boolean(9 ** 2))
+console.log(Boolean(a || b))
+console.log(Boolean('yes' && 'no'))
+console.log(Boolean('top'))
+console.log(Boolean(9999999999999999999999999999999n))
+console.log(Boolean(!!null))
+
+console.log(Boolean("999" + "string"))
+console.log(Boolean("CHUPACABRA"))
+console.log(Boolean("МОЯ ФАНТАЗИЯ КОНЧАЕТСЯ"))
+console.log(Boolean('wtf'))
+console.log(Boolean( func1() || str12))
+console.log(Boolean(2 + 2 * 2))
+
+console.log(Boolean(typeof "11"))
+console.log(Boolean('hhhhhhhooooooooooooowwww?'))
+console.log(Boolean(100 - 100))
+console.log(Boolean("Slojna slojna"))
+console.log(Boolean([1, 2, 3,]))
+console.log(Boolean({}))
+
+console.log(Boolean([]))
+console.log(Boolean({ c: "77" }))
+console.log(Boolean('pain'))
+console.log(Boolean('sadnes'))
+console.log(Boolean(100 + '$'))
+console.log(Boolean(7843 % 111))
+
+console.log(Boolean(1206734825378452835467351498735416823549863546123548213543254971263541235481723648712349851236541287n + 111n))
+console.log(Boolean(100 / 0))
+console.log(Boolean('ЭТО АБЬЮЗ АААААААААААААААААААААААААААААААААА'))
+console.log(Boolean('Надеюсь шашлычок был вкусный'))
+console.log(Boolean(true + false))
+console.log(Boolean(false + false))
+
+console.log(Boolean(90 - 11111111))
+console.log(Boolean('left'))
+console.log(Boolean('right'))
+console.log(Boolean('top'))
+console.log(Boolean('bottom'))
+console.log(Boolean('button'))
+
+console.log(Boolean('Послкдний рывок ещё чуток'))
+console.log(Boolean('Я ДАЖЕ ТЕОРИЮ ЕЩЁ НЕ УЧИЛ СИЖУ КЛАЦАЮ ПО КЛАВЕ'))
+console.log(Boolean(1 + 1 - 2))
+console.log(Boolean(444 + "ts"))
+console.log(Boolean(1000 + 11 <= 122))
+console.log(Boolean('lalalalalalalalalalalalalalalalalalalalalalalalalalalalallalala'))
+
+console.log(Boolean(`${name5}`))
+console.log(Boolean("234"))
+console.log(Boolean(function() {}))
+console.log(Boolean(123123123321321321n))
+console.log(Boolean(a - b))
+console.log(Boolean('Спасибо Макс'))
+
+let count = 0
+count++
+count += 5
+count += 10
+console.log(count)
+while (count <= 100) {
+  console.log(count)
+  count = count + 2
+  console.log(count)
+  count--
+  count += 5
+  console.log(count)
+  count += 178
+  console.log(count)
+  count -= 100
+  console.log(count)
+  count -= 40
+  console.log(count)
+  count += 222
+  console.log(count)
+  count *= 2
+  console.log(count)
+  count /= 3
+  console.log(count)
+  count -= 8
+  console.log(count)
+}
+
+const newNumber = "236"
+console.log(Number(newNumber))
+console.log(parseInt(newNumber))
+console.log(+newNumber)
+console.log(typeof newNumber)
+console.log(typeof Number(newNumber))
+console.log(typeof parseInt(newNumber))
+console.log(typeof +newNumber)
+
+console.log(Boolean("string"))
+
+let num1000 = 999
+console.log(num1000)
+num1000++
+console.log(num1000)
+
+const first = 55
+const second = 45
+console.log(first + second)
+
+const muName = 'Vladislav'
+const muAge = 23
+console.log("Меня зовут " + muName + ", мне " + muAge)
+console.log(`Я ${muName}, мне ${muAge}`)
