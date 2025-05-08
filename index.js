@@ -1,0 +1,709 @@
+'use strict'
+
+// 2 пункт
+const num1 = 1
+const str1 = "hello"
+const bool1 = true
+const null1 = null
+const undef1 = undefined
+const sym1 = Symbol("a")
+const big1 = 10n
+const obj1 = { a: 1 }
+const arr1 = [1, 2, 3]
+const func1 = function() { return 1 }
+const num2 = 2
+const str2 = "hi"
+const bool2 = false
+const null2 = null
+const undef2 = undefined
+const sym2 = Symbol("b")
+const big2 = 11n
+const obj2 = { b: 2 }
+const arr2 = [4, 5, 6]
+const func2 = function() { return 2 }
+const num3 = 3
+const str3 = "ola"
+const bool3 = true
+const null3 = null
+const undef3 = undefined
+const sym3 = Symbol("c")
+const big3 = 12n
+const obj3 = { c: 3 }
+const arr3 = [7, 8, 9]
+const func3 = function() { return 3 }
+const num4 = 4
+const str4 = "norok"
+const bool4 = false
+const null4 = null
+const undef4 = undefined
+const sym4 = Symbol("d")
+const big4 = 13n
+const obj4 = { d: 4 }
+const arr4 = [10, 11, 12]
+const func4 = function() { return 4 }
+const num5 = 5
+const str5 = "salut"
+const bool5 = true
+const null5 = null
+const undef5 = undefined
+const sym5 = Symbol("e")
+const big5 = 14n
+const obj5 = { e: 5 }
+const arr5 = [13, 14, 15]
+const func5 = function() { return 5 }
+const num6 = 6
+const str6 = "privet"
+const bool6 = false
+const null6 = null
+const undef6 = undefined
+const sym6 = Symbol("f")
+const big6 = 15n
+const obj6 = { f: 6 }
+const arr6 = [16, 17, 18]
+const func6 = function() { return 6 }
+const num7 = 7
+const str7 = "nihau"
+const bool7 = true
+const null7 = null
+const undef7 = undefined
+const sym7 = Symbol("g")
+const big7 = 16n
+const obj7 = { g: 7 }
+const arr7 = [19, 20, 21]
+const func7 = function() { return 7 }
+const num8 = 8
+const str8 = "ohaiogozeimas"
+const bool8 = false
+const null8 = null
+const undef8 = undefined
+const sym8 = Symbol("h")
+const big8 = 17n
+const obj8 = { h: 8 }
+const arr8 = [22, 23, 24]
+const func8 = function() { return 8 }
+const num9 = 9
+const str9 = "namaste"
+const bool9 = true
+const null9 = null
+const undef9 = undefined
+const sym9 = Symbol("i")
+const big9 = 18n
+const obj9 = { i: 9 }
+const arr9 = [25, 26, 27]
+const func9 = function() { return 9 }
+const num10 = 10
+const str10 = "bonjur"
+const bool10 = false
+const null10 = null
+const undef10 = undefined
+const sym10 = Symbol("j")
+const big10 = 19n
+const obj10 = { j: 10 }
+const arr10 = [28, 29, 30]
+const func10 = function() { return 10 }
+
+// 3 пункт
+const age1 = 25
+const userName = "Vladislav"
+const isStudent = true
+const muSymbol = Symbol("mu")
+const bigNumber = 1000000n
+const person = { name: "Alexsa", age: 23, }
+const colors = ["red", "green", "blue"]
+const greet = function() { return "hello" }
+const undefinedVar = undefined
+const emptyValue = null
+const PI = 3.1415
+var oldSchool = "JS" 
+//(РАЗНАЯ ОБЛАСТЬ ВИДИМОСТИ) отличается от let тем, что var можно вызвать до её обЪявления получим (undefined), а let выдаст ошибку чётко указам что такая переменная не объявлена
+// console.log(testColl)
+// var testColl = "Переменная вызванная до её объявления (undefined)"
+const hasAccess = false
+const numbers = [1, 2, 3, 4, 5]
+const car = { 
+  brand: "BMW",
+  modal: "M3 E46",
+  year: 2002,
+}
+const country = "Moldova"
+function sayHi() {
+  console.log("проверка вызова функции")
+}
+sayHi()
+const taskCount = 30
+const MAX_USER = 100
+const fruits = ["banana", "apple", "strawberry",]
+const temperature = 22.5
+const isOnline = true
+const settings = {}
+const messages = []
+const sumFunc = function() {
+  console.log(9+37)
+}
+sumFunc()
+const lastLogin = null
+const userRole = "admin"
+const height = 700
+const languages = ["JS", "GO", "1C",]
+const book = {
+  title: "JavaScript. Полное руководство. 7-е издание.",
+  author: "Флэнаган Дэвид",
+  year: 2021,
+}
+console.log(book)
+
+// 5 пункт день 2
+const num11 = 11
+const str11 = "Car"
+const bool11 = true
+const null11 = null
+const undef11 = undefined
+const sym11 = Symbol("k")
+const big11 = 20n
+const obj11 = { k: 11 }
+const arr11 = [31, 32, 33,]
+const func11 = function() { return 11 }
+
+const num12 = 12
+const str12 = "motorcycle"
+const bool12 = false
+const null12 = null
+const undef12 = undefined
+const sym12 = Symbol("l")
+const big12 = 21n
+const obj12 = { l: 12 }
+const arr12 = [34, 35, 36,]
+const func12 = function() { return 12 }
+
+const num13 = 13
+const str13 = "good"
+const bool13 = true
+const null13 = null
+const undef13 = undefined
+const sym13 = Symbol("m")
+const big13 = 22n
+const obg13 = { m: 13 }
+const arr13 = [37, 38, 39,]
+const func13 = function() { return 13 }
+
+const num14 = 14
+const str14 = "top"
+const bool14 = false
+const null14 = null
+const undef14 = undefined
+const sym14 = Symbol("n")
+const big14 = 23n
+const obj14 = { n: 14 }
+const arr14 = [40, 41, 42,]
+const func14 = function() { return 14}
+
+const num15 = 15
+const str15 = "type"
+const bool15 = true
+const null15 = null
+const undef15 = undefined
+const sym15 = Symbol("o")
+const big15 = 24n
+const obj15 = { o: 15 }
+const arr15 = [43, 44, 45,]
+const func15 = function() { return 15 }
+
+const num16 = 16
+const str16 = "right"
+const bool16 = false
+const null16 = null
+const undef16 = undefined
+const sym16 = Symbol("p")
+const big16 = 25n
+const obj16 = { p: 16 }
+const arr16 = [46, 47, 48,]
+const func16 = function() { return 16 }
+
+const num17 = 17
+const str17 = "left"
+const bool17 = true
+const null17 = null
+const undef17 = undefined
+const sym17 = Symbol("q")
+const big17 = 26n
+const obj17 = { q: 17 }
+const arr17 = [49, 50, 51,]
+const func17 = function() { return 17 }
+
+const num18 = 18
+const str18 = "like"
+const bool18 = false
+const null18 = null
+const undef18 = undefined
+const sym18 = Symbol("r")
+const big18 = 27n
+const obj18 = { r: 18 }
+const arr18 = [52, 53, 54,]
+const func18 = function() { return 18 }
+
+const num19 = 19
+const srt19 = "string"
+const bool19 = true
+const null19 = null
+const undef19 = undefined
+const sym19 = Symbol("s")
+const big19 = 28n
+const obj19 = { s: 19 }
+const arr19 = [55, 56, 57,]
+const func19 = function() { return 19 }
+
+const num20 = 20
+const srt20 = "ring"
+const bool20 = false
+const null20 = null
+const undef20 = undefined
+const sym20 = Symbol("t")
+const big20 = 29n
+const obj20 = { t: 20 }
+const arr20 = [58, 59, 60,]
+const func20 = function() { return 20 }
+
+const age2 = 23
+const userName2 = "Viktor"
+const isStudent2 = false
+const muSymbol2 = Symbol("fack")
+const bigNumber2 = 99999n
+const person2 = { 
+  surname: "Vlasov", 
+  date: "07.03.2020",
+}
+const colors2 = ["yellow", "lightblue", "orange",]
+const greet2 = function() { return "bye"}
+const undefinedVar2 = undefined
+const emptyValue2 = null
+const PI2 = 3.1415
+var oldSchool = "GO"
+const hasAccess2 = true
+const numbers2 = [6, 7, 8, 9, 10]
+const car2 = {
+  brand: "Mercedes-benz",
+  model: "CLS 6.3AMG",
+  year: 2015,
+}
+const country2 = "Brasil"
+function sayHi2() {
+  console.log("func")
+}
+sayHi2()
+const taskCount2 = 34
+const MAX_USER2 = 101
+const fruits2 = ["banana", "apple", "strawberry",]
+const temperature2 = 19.6
+const isOnline2 = false
+const settings2 = {}
+const messages2 = []
+const sumFunc2 = function(a, b) {
+  console.log(a + b)
+}
+sumFunc2(2, 3)
+const lastLogin2 = null
+const userRole2 = "user"
+const height2 = 320
+const languages2 = ["C#", "C++", "Pyhton"]
+const book2 = {
+  title: "Дресс-коды. 700 лет модной истории в деталях.",
+  author: "Томпсон Ф. Р.",
+  year:  2025,
+}
+
+// 5 пункт день 3
+const num21 = 21
+const str21 = "tact"
+const bool21 = true
+const nul21 = null
+const undef21 = undefined
+const sym21 = Symbol("u")
+const big21 = 21n
+const obj21 = { u: 21 }
+const arr21 = [61, 62, 63,]
+const func21 = function() { return 21 }
+
+const num22 = 22
+const str22 = "summer"
+const bool22 = false
+const null22 = null
+const undef22 = undefined
+const sym22 = Symbol("v")
+const big22 = 22n
+const obj22 = { v: 22 }
+const arr22 = [64, 65, 66,]
+const func22 = function() { return 22 }
+
+const num23 = 23
+const str23 = "window"
+const bool23 = true
+const null23 = null
+const undef23 = undefined
+const sym23 = Symbol("w")
+const big23 = 23n
+const obj23 = { w: 23 }
+const arr23 = [67, 68, 69,]
+const func23 = function() { return 23 }
+
+const num24 = 24
+const str24 = "simple"
+const bool24 = false
+const null24 = null
+const undef24 = undefined
+const sym24 = Symbol("x")
+const big24 = 24n
+const obj24 = { x: 24 }
+const arr24 = [70, 71, 72,]
+const func24 = function() { return 24 }
+
+const num25 = 25
+const str25 = "rain"
+const bool25 = true
+const null25 = null
+const undef25 = undefined
+const sym25 = Symbol("y")
+const big25 = 25n
+const obj25 = { y: 25 }
+const arr25 = [73, 74, 75,]
+const func25 = function() { return 25 }
+
+const num26 = 26
+const str26 = "love"
+const bool26 = false
+const null26 = null
+const undef26 = undefined
+const sym26 = Symbol("z")
+const big26 = 26n
+const obj26 = { z: 26 }
+const arr26 = [76, 77, 78,]
+const func26 = function() { return 26 }
+
+const num27 = 27
+const str27 = "step"
+const bool27 = true
+const null27 = null
+const undef27 = undefined
+const sym27 = Symbol("aa")
+const big27 = 27n
+const obj27 = { aa: 27 }
+const arr27 = [79, 80, 81,]
+const func27 = function() { return 27 }
+
+const num28 = 28
+const str28 = "build"
+const bool28 = false
+const null28 = null
+const undef28 = undefined
+const sym28 = Symbol("ab")
+const big28 = 28n
+const obj28 = { ab: 28 }
+const arr28 = [82, 83, 84,]
+const func28 = function() { return 28 }
+
+const num29 = 29
+const str29 = "lux"
+const bool29 = true
+const null29 = null
+const undef29 = undefined
+const sym29 = Symbol("ac")
+const big29 = 29n
+const obj29 = { ac: 29 }
+const arr29 = [85, 86, 87,]
+const func29 = function() { return 29 }
+
+const num30 = 30
+const str30 = "game"
+const bool30 = false
+const null30 = null
+const undef30 = undefined
+const sym30 = Symbol("ad")
+const big30 = 30n
+const obj30 = { ad: 30 }
+const arr30 = [88, 89, 90,]
+const func30 = function() { return 30 }
+
+const age3 = 19
+const userName3 = "Stas"
+const isStudent3 = false
+const muSymbol3 = Symbol("sts")
+const bigNumber3 = 123123123n
+const person3 = { name: "Ivan", age: 27, }
+const colors3 = ["black", "purple", "lime"]
+const greet3 = function() { return "norok" }
+const undefinedVar3 = undefined
+const emptyValue3 = null
+const PI3 = 3.1415
+var oldSchool = "1C"
+const hasAccess3 = false
+const numbers3 = [11, 12, 13, 14, 15,]
+const car3 = {
+  brand: "Audi",
+  modal: "R8 Spuder",
+  year: 2021,
+}
+const country3 = "Male"
+function syaHi3() { console.log("norok") }
+syaHi3()
+const taskCount3 = 35
+const MAX_USER3 = 99
+const fruits3 = ["banana", "apple", "strawberry",]
+const temperature3 = 29.8
+const isOnline3 = true
+const settings3 = {}
+const messages3 = []
+const sumFunc3 = function() {
+  console.log(1+1)
+}
+sumFunc3()
+const lastLogin3 = null
+const userRole3 = "helpper"
+const height3 = 900
+const languages3 = ["Java", "PHP", "Typescript",]
+const book3 = {
+  title: "Трансерфинг себя",
+  author: "Вадим Зеланд",
+  year: 2024,
+}
+
+// 6 пункт
+const a = 10
+const b = 3
+console.log(a + b)
+console.log(a - b)
+console.log(a * b)
+console.log(a / b)
+console.log(a % b)
+const c = 4
+const d = 6
+console.log(c + d)
+console.log(c - d)
+console.log(c * d)
+console.log(c / d)
+console.log(c % d)
+const e = 8
+const f = 2
+console.log(e + f)
+console.log(e - f)
+console.log(e * f)
+console.log(e / f)
+console.log(e % f)
+const g = 12
+const h = 45
+console.log(g + h)
+console.log(g - h)
+console.log(g * f)
+console.log(g / f)
+console.log(g % f)
+const j = 98
+const k = 5
+console.log(j + k)
+console.log(j - k)
+console.log(j * k)
+console.log(j / k)
+console.log(j % k)
+const l = 111
+const m = 6
+console.log(l + m)
+console.log(l - m)
+console.log(l * m)
+console.log(l / m)
+console.log(l % m)
+
+const name = "Alice"
+const age = 25
+console.log("Меня зовут " + name + ", мне " + age + " лет")
+console.log(`Меня зовут ${name}, мне ${age} лет`)
+const name4 = "Ignat"
+const age4 = 50
+console.log("Меня зовут " + name4 + ", мне " + age4 + " лет")
+console.log(`Меня зовут ${name4}, мне ${age4} лет`)
+const name5 = "Valera"
+const age5 = 32
+console.log("Меня зовут " + name5 + ", мне " + age5 + " года")
+console.log(`Меня зовут ${name5}, мне ${age5} года`)
+const name6 = "Olga"
+const age6 = 27
+console.log("Меня зовут " + name6 + ", мне " + age6 + "лет")
+console.log(`Меня зовут ${name6}, мне ${age6} лет`)
+const name7 = "Inna"
+const age7 = 38
+console.log("Меня зовут " + name7 + ", мне " + age7 + " лет")
+console.log(`Меня зовут ${name7}, мне ${age7} лет`)
+const name8 = "Lilo"
+const age8 = 16
+console.log("Меня зовут " + name8 + ", мне " + age8 + " лет")
+console.log(`Меня зовут ${name8}, мне ${age8} лет`)
+
+const strNumber = "100"
+const transformationNum = Number(strNumber)
+const transformationPar = parseInt(strNumber)
+const transformationPlus = +strNumber
+console.log(transformationNum, transformationPar, transformationPlus)
+const strNumber1 = "50"
+const transformationNum1 = Number(strNumber1)
+const transformationPar1 = parseInt(strNumber1)
+const transformationPlus1 = +strNumber1
+console.log(transformationNum1, transformationPar1, transformationPlus1)
+const strNumber2 = "200"
+const transformationNum2 = Number(strNumber2)
+const transformationPar2 = parseInt(strNumber2)
+const transformationPlus2 = +strNumber2
+console.log(transformationNum2, transformationPar2, transformationPlus2)
+const strNumber3 = 0
+const transformationNum3 = Number(strNumber3)
+const transformationPar3 = parseInt(strNumber3)
+const transformationPlus3 = +strNumber3
+console.log(transformationNum3, transformationPar3, transformationPlus3)
+const strNumber4 = "-30"
+const transformationNum4 = Number(strNumber4)
+const transformationPar4 = parseInt(strNumber4)
+const transformationPlus4 = +strNumber4
+console.log(transformationNum4, transformationPar4, transformationPlus4)
+const strNumber5 = "3.14"
+const transformationNum5 = Number(strNumber5)
+const transformationPar5 = parseInt(strNumber5)
+const transformationPlus5 = +strNumber5
+console.log(transformationNum5, transformationPar5, transformationPlus5)
+
+console.log("5" * 2)//строка ("5") преобразуется в число так как js видит математический оператор (*) и пытается превести операнды к однову типу в даном примере к числу
+console.log("10" / "2")
+console.log("7" - 3)
+console.log(4 + "5")//в данном случе (+) производит конкатинацию приводя щперанды к сроке
+console.log(22 + "5")
+console.log("7" * 13)
+console.log(11 / "2")
+console.log("18" - "4")
+console.log(15 * "3")
+console.log(81 / "9")
+console.log(111 - "111")
+console.log(5 + 5)// в этом случае конкатиначия буде производиться с двумя операндами типа Number
+
+console.log(Boolean(0))//false
+console.log(Boolean(1))//true
+console.log(Boolean(""))//false
+console.log(Boolean("hello"))//true
+console.log(Boolean(null))//false
+console.log(Boolean(undefined))//false
+
+console.log(Boolean(-1))
+console.log(Boolean(100000000000000000000))
+console.log(Boolean(strNumber))
+console.log(Boolean(NaN))
+console.log(Boolean(name))
+console.log(Boolean(a + b))
+
+console.log(Boolean("1" / 6))
+console.log(Boolean(`Что это ${transformationNum}`))
+console.log(Boolean(true))
+console.log(Boolean(false))
+console.log(Boolean(!true))
+console.log(Boolean(!false))
+
+console.log(Boolean(9 ** 2))
+console.log(Boolean(a || b))
+console.log(Boolean('yes' && 'no'))
+console.log(Boolean('top'))
+console.log(Boolean(9999999999999999999999999999999n))
+console.log(Boolean(!!null))
+
+console.log(Boolean("999" + "string"))
+console.log(Boolean("CHUPACABRA"))
+console.log(Boolean("МОЯ ФАНТАЗИЯ КОНЧАЕТСЯ"))
+console.log(Boolean('wtf'))
+console.log(Boolean( func1() || str12))
+console.log(Boolean(2 + 2 * 2))
+
+console.log(Boolean(typeof "11"))
+console.log(Boolean('hhhhhhhooooooooooooowwww?'))
+console.log(Boolean(100 - 100))
+console.log(Boolean("Slojna slojna"))
+console.log(Boolean([1, 2, 3,]))
+console.log(Boolean({}))
+
+console.log(Boolean([]))
+console.log(Boolean({ c: "77" }))
+console.log(Boolean('pain'))
+console.log(Boolean('sadnes'))
+console.log(Boolean(100 + '$'))
+console.log(Boolean(7843 % 111))
+
+console.log(Boolean(1206734825378452835467351498735416823549863546123548213543254971263541235481723648712349851236541287n + 111n))
+console.log(Boolean(100 / 0))
+console.log(Boolean('ЭТО АБЬЮЗ АААААААААААААААААААААААААААААААААА'))
+console.log(Boolean('Надеюсь шашлычок был вкусный'))
+console.log(Boolean(true + false))
+console.log(Boolean(false + false))
+
+console.log(Boolean(90 - 11111111))
+console.log(Boolean('left'))
+console.log(Boolean('right'))
+console.log(Boolean('top'))
+console.log(Boolean('bottom'))
+console.log(Boolean('button'))
+
+console.log(Boolean('Послкдний рывок ещё чуток'))
+console.log(Boolean('Я ДАЖЕ ТЕОРИЮ ЕЩЁ НЕ УЧИЛ СИЖУ КЛАЦАЮ ПО КЛАВЕ'))
+console.log(Boolean(1 + 1 - 2))
+console.log(Boolean(444 + "ts"))
+console.log(Boolean(1000 + 11 <= 122))
+console.log(Boolean('lalalalalalalalalalalalalalalalalalalalalalalalalalalalallalala'))
+
+console.log(Boolean(`${name5}`))
+console.log(Boolean("234"))
+console.log(Boolean(function() {}))
+console.log(Boolean(123123123321321321n))
+console.log(Boolean(a - b))
+console.log(Boolean('Спасибо Макс'))
+
+let count = 0
+count++
+count += 5
+count += 10
+console.log(count)
+while (count <= 100) {
+  console.log(count)
+  count = count + 2
+  console.log(count)
+  count--
+  count += 5
+  console.log(count)
+  count += 178
+  console.log(count)
+  count -= 100
+  console.log(count)
+  count -= 40
+  console.log(count)
+  count += 222
+  console.log(count)
+  count *= 2
+  console.log(count)
+  count /= 3
+  console.log(count)
+  count -= 8
+  console.log(count)
+}
+
+const newNumber = "236"
+console.log(Number(newNumber))
+console.log(parseInt(newNumber))
+console.log(+newNumber)
+console.log(typeof newNumber)
+console.log(typeof Number(newNumber))
+console.log(typeof parseInt(newNumber))
+console.log(typeof +newNumber)
+
+console.log(Boolean("string"))
+
+let num1000 = 999
+console.log(num1000)
+num1000++
+console.log(num1000)
+
+const first = 55
+const second = 45
+console.log(first + second)
+
+const muName = 'Vladislav'
+const muAge = 23
+console.log("Меня зовут " + muName + ", мне " + muAge)
+console.log(`Я ${muName}, мне ${muAge}`)
