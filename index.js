@@ -132,11 +132,7 @@ function sayHi() {
 sayHi()
 const taskCount = 30
 const MAX_USER = 100
-const fruits = [
-  function() {},
-  function() {},
-  function() {},
-]
+const fruits = ["banana", "apple", "strawberry",]
 const temperature = 22.5
 const isOnline = true
 const settings = {}
@@ -296,11 +292,7 @@ function sayHi2() {
 sayHi2()
 const taskCount2 = 34
 const MAX_USER2 = 101
-const fruits2 = [
-  function() {},
-  function() {},
-  function() {},
-]
+const fruits2 = ["banana", "apple", "strawberry",]
 const temperature2 = 19.6
 const isOnline2 = false
 const settings2 = {}
@@ -317,4 +309,158 @@ const book2 = {
   title: "Дресс-коды. 700 лет модной истории в деталях.",
   author: "Томпсон Ф. Р.",
   year:  2025,
+}
+
+// 5 пункт день 3
+const num21 = 21
+const str21 = "tact"
+const bool21 = true
+const nul21 = null
+const undef21 = undefined
+const sym21 = Symbol("u")
+const big21 = 21n
+const obj21 = { u: 21 }
+const arr21 = [61, 62, 63,]
+const func21 = function() { return 21 }
+
+const num22 = 22
+const str22 = "summer"
+const bool22 = false
+const null22 = null
+const undef22 = undefined
+const sym22 = Symbol("v")
+const big22 = 22n
+const obj22 = { v: 22 }
+const arr22 = [64, 65, 66,]
+const func22 = function() { return 22 }
+
+const num23 = 23
+const str23 = "window"
+const bool23 = true
+const null23 = null
+const undef23 = undefined
+const sym23 = Symbol("w")
+const big23 = 23n
+const obj23 = { w: 23 }
+const arr23 = [67, 68, 69,]
+const func23 = function() { return 23 }
+
+const num24 = 24
+const str24 = "simple"
+const bool24 = false
+const null24 = null
+const undef24 = undefined
+const sym24 = Symbol("x")
+const big24 = 24n
+const obj24 = { x: 24 }
+const arr24 = [70, 71, 72,]
+const func24 = function() { return 24 }
+
+const num25 = 25
+const str25 = "rain"
+const bool25 = true
+const null25 = null
+const undef25 = undefined
+const sym25 = Symbol("y")
+const big25 = 25n
+const obj25 = { y: 25 }
+const arr25 = [73, 74, 75,]
+const func25 = function() { return 25 }
+
+const num26 = 26
+const str26 = "love"
+const bool26 = false
+const null26 = null
+const undef26 = undefined
+const sym26 = Symbol("z")
+const big26 = 26n
+const obj26 = { z: 26 }
+const arr26 = [76, 77, 78,]
+const func26 = function() { return 26 }
+
+const num27 = 27
+const str27 = "step"
+const bool27 = true
+const null27 = null
+const undef27 = undefined
+const sym27 = Symbol("aa")
+const big27 = 27n
+const obj27 = { aa: 27 }
+const arr27 = [79, 80, 81,]
+const func27 = function() { return 27 }
+
+const num28 = 28
+const str28 = "build"
+const bool28 = false
+const null28 = null
+const undef28 = undefined
+const sym28 = Symbol("ab")
+const big28 = 28n
+const obj28 = { ab: 28 }
+const arr28 = [82, 83, 84,]
+const func28 = function() { return 28 }
+
+const num29 = 29
+const str29 = "lux"
+const bool29 = true
+const null29 = null
+const undef29 = undefined
+const sym29 = Symbol("ac")
+const big29 = 29n
+const obj29 = { ac: 29 }
+const arr29 = [85, 86, 87,]
+const func29 = function() { return 29 }
+
+const num30 = 30
+const str30 = "game"
+const bool30 = false
+const null30 = null
+const undef30 = undefined
+const sym30 = Symbol("ad")
+const big30 = 30n
+const obj30 = { ad: 30 }
+const arr30 = [88, 89, 90,]
+const func30 = function() { return 30 }
+
+const age3 = 19
+const userName3 = "Stas"
+const isStudent3 = false
+const muSymbol3 = Symbol("sts")
+const bigNumber3 = 123123123n
+const person3 = { name: "Ivan", age: 27, }
+const colors3 = ["black", "purple", "lime"]
+const greet3 = function() { return "norok" }
+const undefinedVar3 = undefined
+const emptyValue3 = null
+const PI3 = 3.1415
+var oldSchool = "1C"
+const hasAccess3 = false
+const numbers3 = [11, 12, 13, 14, 15,]
+const car3 = {
+  brand: "Audi",
+  modal: "R8 Spuder",
+  year: 2021,
+}
+const country3 = "Male"
+function syaHi3() { console.log("norok") }
+syaHi3()
+const taskCount3 = 35
+const MAX_USER3 = 99
+const fruits3 = ["banana", "apple", "strawberry",]
+const temperature3 = 29.8
+const isOnline3 = true
+const settings3 = {}
+const messages3 = []
+const sumFunc3 = function() {
+  console.log(1+1)
+}
+sumFunc3()
+const lastLogin3 = null
+const userRole3 = "helpper"
+const height3 = 900
+const languages3 = ["Java", "PHP", "Typescript",]
+const book3 = {
+  title: "Трансерфинг себя",
+  author: "Вадим Зеланд",
+  year: 2024,
 }
